@@ -2,18 +2,18 @@ from translate_fruit import *
 from fruits_unicode import *
 
 def test_translate_fruit_Kannada():
-	expected_ = "\u0cb8\u0cc7\u0cac\u0cc1"
+	expected_ = "Translation of Apple in Kannada is \xe0\xb2\xb8\xe0\xb3\x87\xe0\xb2\xac\xe0\xb3\x81"
 
 	assert expected_ == translate_("Kannada", "Apple")
 
 def test_translate_fruit_Tamil():
-	expected_ = "\u0b86\u0b9f\u0bcd\u0baa\u0bcd\u0bb3\u0bcd"
+	expected_ = "\Translation of Apple in Tamil is \xe0\xae\x86\xe0\xae\x9f\xe0\xaf\x8d\xe0\xae\xaa\xe0\xaf\x8d\xe0\xae\xb3\xe0\xaf\x8d"
 
 	assert expected_ == translate_("Tamil", "Apple")
 
 
 def test_translate_fruit_Malayalam():
-	expected_ = "\u0d06\u0d2a\u0d4d\u0d2a\u0d3f\u0d7d"
+	expected_ = "Translation of Apple in Malayalam is \xe0\xb4\x86\xe0\xb4\xaa\xe0\xb5\x8d\xe0\xb4\xaa\xe0\xb4\xbf\xe0\xb5\xbd"
 
 	assert expected_ == translate_("Malayalam", "Apple")
 
